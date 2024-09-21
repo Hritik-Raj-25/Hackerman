@@ -7,17 +7,28 @@
     <title>Hackerman</title>
 
     <style>
-        body {
+       body {
             background-color: black;
             color: #00FF00;
             font-family: 'Courier New', Courier, monospace;
             text-align: center;
             height: 100vh;
             margin: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
-        .color {
-            padding: 50px;
+        #text {
+            padding: 20px;
+            border: 2px dashed #00FF00;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+            background: rgba(0, 0, 0, 0.8);
+            max-width: 80%;
+            line-height: 1.5;
+            height: 70%; 
         }
     </style>
 
